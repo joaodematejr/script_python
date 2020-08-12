@@ -1,2 +1,2 @@
-# script_python
+# Script python
 LINGUAGEM DE PROGRAMAÇÃO II - 2-2020
