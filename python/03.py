@@ -28,3 +28,11 @@ calcular.calcular_soma(numero1, numero2)
 calcular.calcular_subtracao(numero1, numero2)
 calcular.calcular_multiplicacao(numero1, numero2)
 calcular.calcular_divisao(numero1, numero2)
+
+#Cálculo com o acrescimo do número 1
+print ("\nEsses são os resultados com o acréscimo do número 1:")
+calcular.calcular_soma(numero1, numero2+1)
+calcular.calcular_subtracao(numero1, numero2+1)
+calcular.calcular_multiplicacao(numero1, numero2+1)
+calcular.calcular_divisao(numero1, numero2+1)
+

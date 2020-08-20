@@ -1,9 +1,15 @@
-print('Digite uma valor')
+print('Digite um valor para troco')
 valor = int(input())
 
-print('Digite o preço')
+print('Digite o preço do produto')
 preco = int(input())
 
-calcular = valor - preco
 
-print("Resultado Final é:", calcular)
+#Adição de desconto
+desconto = int (input("Digite o valor do desconto: "))
+precototal = preco - desconto
+print ("O preço com desconto é R$", preco)
+
+calcular = valor - precototal
+
+print("O valor do troco será de R$", calcular)
